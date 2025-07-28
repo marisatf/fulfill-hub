@@ -2,10 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Account Manager's Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-width: 180px;
+      height: auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin: 30px 0;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .button-container a {
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 18px 25px;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+      width: 220px;
+      display: inline-block;
+    }
+    .button-container a:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #888;
+      padding-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
+
+  <header>
+    <!-- Reemplaza esta URL con la de tu logo si lo subes a GitHub -->
+    <img src="https://via.placeholder.com/180x60?text=LOGO" alt="Company Logo" />
+  </header>
+
   <h1>Account Manager's Hub</h1>
-  <p>Bienvenido al panel principal del gestor de cuentas.</p>
+
+  <div class="button-container">
+    <a href="add-new-customer.html">Add New Customer</a>
+    <a href="manage-orders.html">Manage Orders</a>
+    <a href="record-activity.html">Record Your Activity</a>
+    <a href="resources.html">Resources</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Fulfill Operations
+  </footer>
+
 </body>
 </html>
